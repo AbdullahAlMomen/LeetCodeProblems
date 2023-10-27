@@ -1,4 +1,9 @@
-﻿int[] TwoSum(int[] nums, int target)
+﻿/*
+ * Space Complexity:O(1)
+ * Time Complexity:O(n)
+ */
+
+int[] TwoSum(int[] nums, int target)
 {
     
     Dictionary<int, int> map = new Dictionary<int, int>();
@@ -19,5 +24,3 @@
 
 int[] ans = TwoSum(new int[]{ 2, 7, 11, 15 },9);
 
-Console.WriteLine(ans[0]);
-Console.WriteLine(ans[1]);
