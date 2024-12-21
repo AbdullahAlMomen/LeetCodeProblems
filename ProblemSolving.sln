@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Summation_Of_Large_Number",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RightRotationOfString", "RightRotationOfString\RightRotationOfString.csproj", "{7159BB5B-84EF-4EFF-8B11-894B5A5CBD0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternRelatedProblems", "PatternRelatedProblems\PatternRelatedProblems.csproj", "{B1122CD4-183E-481D-BBE9-0400DC9BDBD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7159BB5B-84EF-4EFF-8B11-894B5A5CBD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7159BB5B-84EF-4EFF-8B11-894B5A5CBD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7159BB5B-84EF-4EFF-8B11-894B5A5CBD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1122CD4-183E-481D-BBE9-0400DC9BDBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1122CD4-183E-481D-BBE9-0400DC9BDBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1122CD4-183E-481D-BBE9-0400DC9BDBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1122CD4-183E-481D-BBE9-0400DC9BDBD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
