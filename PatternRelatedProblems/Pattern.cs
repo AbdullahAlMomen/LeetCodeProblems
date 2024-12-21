@@ -111,5 +111,18 @@ namespace PatternRelatedProblems
             }
         
         }
+        public static void IncreasingNumberTrianglePattern(int n)
+        {
+            int count = 1;
+            for(int i =0; i < n; i++)
+            {
+                for(int j = 0; j <= i; j++)
+                {
+                    Console.Write(count++);
+                    Console.Write(" ");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }

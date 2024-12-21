@@ -3,4 +3,4 @@ using PatternRelatedProblems;
 
 Console.WriteLine("Hello, World!");
 
-Pattern.NumberCrownPattern(4);
+Pattern.IncreasingNumberTrianglePattern(5);
