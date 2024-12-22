@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -89,21 +90,18 @@ namespace PatternRelatedProblems
 
         public static void NumberCrownPattern(int n) 
         {
-            int space = 2*(n - 1);
-            for(int i = 0; i < n; i++)
+            int space = 2*(n-1);
+            for(int i = 1; i <= n; i++)
             {
-                for(int j=0; j <= i; j++)
+                for(int j = 1; j <= i; j++)
                 {
-                   
-                    Console.Write(j+1);
+                    Console.Write(j);
                 }
-                for (int k = 0; k < space; k++)
+
+                for(int k=1;k<=space; k++) {  Console.Write(" "); }
+
+                for (int j = i; j >= 1; j--)
                 {
-                    Console.Write(" ");
-                }
-                for (int j=i+1 ; j>= 1; j--)
-                {
-                   
                     Console.Write(j);
                 }
                 space = space - 2;
@@ -120,6 +118,68 @@ namespace PatternRelatedProblems
                 {
                     Console.Write(count++);
                     Console.Write(" ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public static void IncreasingLetterTrianglePattern(int n)
+        {
+            for(int i = 0; i < n; i++)
+            {
+                for(char c = 'A'; c <= 'A'+i; c++)
+                {
+                    Console.Write(c.ToString());
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public static void ReverseLetterTrianglePattern(int n)
+        {
+            for(int i = n; i > 0; i--)
+            {
+                for(char ch= 'A'; ch <'A'+i; ch++)
+                {
+                    Console.Write(ch.ToString());
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public static void AlphaRampPattern(int n) {
+            char ch= 'A';
+            for(int i =0; i < n; i++)
+            {
+               for(int j=0;j<=i; j++)
+                {
+                    Console.Write(ch);
+                }
+                ch++;
+                Console.WriteLine();
+            }
+        
+        }
+
+        public static void AlphaHillPattern(int n)
+        {
+            for(int i = 0; i < n; i++)
+            {
+                for(int j=0;j<n-i; j++)
+                {
+                    Console.Write(" ");
+                }
+                char ch= 'A';
+                for(int j = 0; j < 2 * i + 1; j++)
+                {
+                    if (j >= i)
+                    {
+                        Console.Write(ch--);
+                    }
+                    else
+                    {
+                        Console.Write(ch++);
+                    }
                 }
                 Console.WriteLine();
             }
