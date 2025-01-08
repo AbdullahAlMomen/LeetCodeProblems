@@ -3,4 +3,4 @@ using PatternRelatedProblems;
 
 Console.WriteLine("Hello, World!");
 
-Pattern.HollowRectangle(4);
+Pattern.Practise(5);
