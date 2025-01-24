@@ -3,4 +3,4 @@ using PatternRelatedProblems;
 
 Console.WriteLine("Hello, World!");
 
-Pattern.Practise(5);
+Pattern.Practise(4);

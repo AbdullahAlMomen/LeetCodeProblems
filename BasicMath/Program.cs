@@ -2,4 +2,5 @@
 using BasicMathProblems;
 
 Console.WriteLine("Hello, World!");
+BasicMath.isPrime(3);
 BasicMath.GCD(20,15);
