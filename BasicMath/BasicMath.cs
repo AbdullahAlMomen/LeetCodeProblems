@@ -41,7 +41,30 @@ namespace BasicMathProblems
             else Console.WriteLine("Not a Palindrome Number");
         }
 
-
+        public static void GCD (int n1,int n2)
+        {
+            int temp1 = 0;
+            int temp2 = 0;
+            if (n1 > n2)
+            {
+                temp1 = n1;
+                temp2 = n2;
+            }
+            else 
+            { 
+                temp1 = n2;
+                temp2 = n1; 
+            }
+             
+            int rem = 0;
+            while (temp2 != 0)
+            {
+                rem = temp1 % temp2;
+                temp1 = temp2;
+                temp2 = rem;
+            }
+            Console.WriteLine(temp1);
+        }
         public static void Practise(int n)
         {
             int result = 0;
