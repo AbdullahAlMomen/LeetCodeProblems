@@ -36,7 +36,6 @@
                 Console.WriteLine("Palindrome Number");
             else Console.WriteLine("Not a Palindrome Number");
         }
-
         public static void GCD (int n1,int n2)
         {
             int temp1 = 0;
@@ -112,9 +111,20 @@
             Console.WriteLine("is a Prime Number");
         }
 
-        public static int Practise(int x)
+        public static void Practise(int n)
         {
-           
+           double sqrt = Math.Sqrt(n);
+
+            for(int i = 2; i <= n/2; i++)
+            {
+                if(n % i == 0)
+                {
+                    Console.WriteLine(i);
+                    if (i != n / i) Console.WriteLine(n / i);
+                }
+                
+            }
+
         }
     }
 }

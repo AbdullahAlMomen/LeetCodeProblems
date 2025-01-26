@@ -1,8 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using BasicMathProblems;
+using RecursionPractise;
 
 Console.WriteLine("Hello, World!");
-//BasicMath.isPrime(3);
-//BasicMath.GCD(20,15);
-BasicMath.Practise(36);
-
+Console.WriteLine(Recursion.factorialNumber(5)); ;
