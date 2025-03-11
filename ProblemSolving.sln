@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{0A304E30-F73A-449B-B2C1-8AE5968DE880}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATCoder_391", "ATCoder_391\ATCoder_391.csproj", "{6575130B-127F-4AFB-8CDA-FDA90418324A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0A304E30-F73A-449B-B2C1-8AE5968DE880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A304E30-F73A-449B-B2C1-8AE5968DE880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A304E30-F73A-449B-B2C1-8AE5968DE880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6575130B-127F-4AFB-8CDA-FDA90418324A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6575130B-127F-4AFB-8CDA-FDA90418324A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6575130B-127F-4AFB-8CDA-FDA90418324A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6575130B-127F-4AFB-8CDA-FDA90418324A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
