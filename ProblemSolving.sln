@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATCoder_391", "ATCoder_391\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting1", "Sorting1\Sorting1.csproj", "{5AA42C79-B8AF-4833-99B4-92D9F2FCF4F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting2", "Sorting2\Sorting2.csproj", "{3EC5333D-F6A4-4BB0-80FC-EDE4A45FA9A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5AA42C79-B8AF-4833-99B4-92D9F2FCF4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AA42C79-B8AF-4833-99B4-92D9F2FCF4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AA42C79-B8AF-4833-99B4-92D9F2FCF4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC5333D-F6A4-4BB0-80FC-EDE4A45FA9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC5333D-F6A4-4BB0-80FC-EDE4A45FA9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC5333D-F6A4-4BB0-80FC-EDE4A45FA9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC5333D-F6A4-4BB0-80FC-EDE4A45FA9A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
